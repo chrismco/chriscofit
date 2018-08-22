@@ -1,0 +1,161 @@
+[30-May-2018 16:35:14 UTC] PHP Parse error:  syntax error, unexpected '17' (T_LNUMBER), expecting ',' or ')' in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/themes/chriscofit/inc/mealplan/content.php on line 12
+[30-May-2018 16:35:23 UTC] PHP Parse error:  syntax error, unexpected '17' (T_LNUMBER), expecting ',' or ')' in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/themes/chriscofit/inc/mealplan/content.php on line 12
+[30-May-2018 16:42:58 UTC] PHP Parse error:  syntax error, unexpected '17' (T_LNUMBER), expecting ',' or ')' in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/themes/chriscofit/inc/mealplan/content.php on line 12
+[30-May-2018 16:45:34 UTC] PHP Parse error:  syntax error, unexpected '17' (T_LNUMBER), expecting ',' or ')' in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/themes/chriscofit/inc/mealplan/content.php on line 12
+[30-May-2018 16:45:40 UTC] PHP Parse error:  syntax error, unexpected '17' (T_LNUMBER), expecting ',' or ')' in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/themes/chriscofit/inc/mealplan/content.php on line 12
+[30-May-2018 16:46:05 UTC] PHP Parse error:  syntax error, unexpected '17' (T_LNUMBER), expecting ',' or ')' in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/themes/chriscofit/inc/mealplan/content.php on line 12
+[30-May-2018 16:46:17 UTC] PHP Parse error:  syntax error, unexpected '17' (T_LNUMBER), expecting ',' or ')' in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/themes/chriscofit/inc/mealplan/content.php on line 12
+[30-May-2018 16:46:25 UTC] PHP Parse error:  syntax error, unexpected '17' (T_LNUMBER), expecting ',' or ')' in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/themes/chriscofit/inc/mealplan/content.php on line 12
+[17-Jul-2018 23:08:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php:91
+Stack trace:
+#0 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php(159): get_visitor_OS()
+#1 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/wp_login_security_and_history.php(153): WPS_add_login_row('chriscofit', 0)
+#2 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-wp-hook.php(286): WPS_login_failed('chriscofit')
+#3 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/pluggable.php(551): do_action('wp_login_failed', 'chriscofit')
+#6 /home/potionxsmoothies/public_html/chriscof in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php on line 91
+[18-Jul-2018 04:29:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php:91
+Stack trace:
+#0 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php(159): get_visitor_OS()
+#1 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/wp_login_security_and_history.php(153): WPS_add_login_row('admin', 0)
+#2 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-wp-hook.php(286): WPS_login_failed('admin')
+#3 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/pluggable.php(551): do_action('wp_login_failed', 'admin')
+#6 /home/potionxsmoothies/public_html/chriscofit.com/wp-inclu in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php on line 91
+[18-Jul-2018 04:39:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php:91
+Stack trace:
+#0 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php(159): get_visitor_OS()
+#1 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/wp_login_security_and_history.php(153): WPS_add_login_row('administrator', 0)
+#2 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-wp-hook.php(286): WPS_login_failed('administrator')
+#3 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/pluggable.php(551): do_action('wp_login_failed', 'administrator')
+#6 /home/potionxsmoothies/public_html in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php on line 91
+[18-Jul-2018 04:48:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php:91
+Stack trace:
+#0 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php(159): get_visitor_OS()
+#1 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/wp_login_security_and_history.php(153): WPS_add_login_row('admin', 0)
+#2 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-wp-hook.php(286): WPS_login_failed('admin')
+#3 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/pluggable.php(551): do_action('wp_login_failed', 'admin')
+#6 /home/potionxsmoothies/public_html/chriscofit.com/wp-inclu in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php on line 91
+[18-Jul-2018 05:47:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php:91
+Stack trace:
+#0 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php(159): get_visitor_OS()
+#1 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/wp_login_security_and_history.php(153): WPS_add_login_row('administrator', 0)
+#2 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-wp-hook.php(286): WPS_login_failed('administrator')
+#3 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/pluggable.php(551): do_action('wp_login_failed', 'administrator')
+#6 /home/potionxsmoothies/public_html in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php on line 91
+[18-Jul-2018 13:28:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php:91
+Stack trace:
+#0 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php(159): get_visitor_OS()
+#1 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/wp_login_security_and_history.php(153): WPS_add_login_row('administrator', 0)
+#2 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-wp-hook.php(286): WPS_login_failed('administrator')
+#3 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/pluggable.php(551): do_action('wp_login_failed', 'administrator')
+#6 /home/potionxsmoothies/public_html in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php on line 91
+[18-Jul-2018 19:00:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php:91
+Stack trace:
+#0 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php(159): get_visitor_OS()
+#1 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/wp_login_security_and_history.php(162): WPS_add_login_row('chrismco', 1)
+#2 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-wp-hook.php(286): WPS_login_success('chrismco', Object(WP_User))
+#3 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/user.php(109): do_action('wp_login', 'chrismco', Object(WP_User))
+#6 /home/potionxsmoothies/pub in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php on line 91
+[18-Jul-2018 19:00:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php:91
+Stack trace:
+#0 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php(159): get_visitor_OS()
+#1 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/wp_login_security_and_history.php(162): WPS_add_login_row('chrismco', 1)
+#2 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-wp-hook.php(286): WPS_login_success('chrismco', Object(WP_User))
+#3 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/user.php(109): do_action('wp_login', 'chrismco', Object(WP_User))
+#6 /home/potionxsmoothies/pub in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php on line 91
+[18-Jul-2018 21:46:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php:91
+Stack trace:
+#0 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php(159): get_visitor_OS()
+#1 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/wp_login_security_and_history.php(153): WPS_add_login_row('chriscofit', 0)
+#2 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-wp-hook.php(286): WPS_login_failed('chriscofit')
+#3 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/pluggable.php(551): do_action('wp_login_failed', 'chriscofit')
+#6 /home/potionxsmoothies/public_html/chriscof in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php on line 91
+[18-Jul-2018 21:51:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php:91
+Stack trace:
+#0 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php(159): get_visitor_OS()
+#1 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/wp_login_security_and_history.php(162): WPS_add_login_row('chrismco', 1)
+#2 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-wp-hook.php(286): WPS_login_success('chrismco', Object(WP_User))
+#3 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/user.php(109): do_action('wp_login', 'chrismco', Object(WP_User))
+#6 /home/potionxsmoothies/pub in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php on line 91
+[18-Jul-2018 23:21:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php:91
+Stack trace:
+#0 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php(159): get_visitor_OS()
+#1 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/wp_login_security_and_history.php(153): WPS_add_login_row('admin', 0)
+#2 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-wp-hook.php(286): WPS_login_failed('admin')
+#3 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/pluggable.php(551): do_action('wp_login_failed', 'admin')
+#6 /home/potionxsmoothies/public_html/chriscofit.com/wp-inclu in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php on line 91
+[18-Jul-2018 23:36:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php:91
+Stack trace:
+#0 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php(159): get_visitor_OS()
+#1 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/wp_login_security_and_history.php(153): WPS_add_login_row('chriscofit', 0)
+#2 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-wp-hook.php(286): WPS_login_failed('chriscofit')
+#3 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/pluggable.php(551): do_action('wp_login_failed', 'chriscofit')
+#6 /home/potionxsmoothies/public_html/chriscof in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php on line 91
+[19-Jul-2018 06:09:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php:91
+Stack trace:
+#0 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php(159): get_visitor_OS()
+#1 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/wp_login_security_and_history.php(153): WPS_add_login_row('admin', 0)
+#2 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-wp-hook.php(286): WPS_login_failed('admin')
+#3 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/pluggable.php(551): do_action('wp_login_failed', 'admin')
+#6 /home/potionxsmoothies/public_html/chriscofit.com/wp-inclu in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php on line 91
+[19-Jul-2018 09:00:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php:91
+Stack trace:
+#0 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php(159): get_visitor_OS()
+#1 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/wp_login_security_and_history.php(153): WPS_add_login_row('admin', 0)
+#2 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-wp-hook.php(286): WPS_login_failed('admin')
+#3 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/pluggable.php(551): do_action('wp_login_failed', 'admin')
+#6 /home/potionxsmoothies/public_html/chriscofit.com/wp-inclu in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php on line 91
+[19-Jul-2018 14:09:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php:91
+Stack trace:
+#0 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php(159): get_visitor_OS()
+#1 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/wp_login_security_and_history.php(162): WPS_add_login_row('chrismco', 1)
+#2 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-wp-hook.php(286): WPS_login_success('chrismco', Object(WP_User))
+#3 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/user.php(109): do_action('wp_login', 'chrismco', Object(WP_User))
+#6 /home/potionxsmoothies/pub in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php on line 91
+[19-Jul-2018 14:10:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php:91
+Stack trace:
+#0 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php(159): get_visitor_OS()
+#1 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/wp_login_security_and_history.php(162): WPS_add_login_row('chrismco', 1)
+#2 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-wp-hook.php(286): WPS_login_success('chrismco', Object(WP_User))
+#3 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/user.php(109): do_action('wp_login', 'chrismco', Object(WP_User))
+#6 /home/potionxsmoothies/pub in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php on line 91
+[19-Jul-2018 14:10:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php:91
+Stack trace:
+#0 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php(159): get_visitor_OS()
+#1 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/wp_login_security_and_history.php(162): WPS_add_login_row('chrismco', 1)
+#2 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-wp-hook.php(286): WPS_login_success('chrismco', Object(WP_User))
+#3 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/user.php(109): do_action('wp_login', 'chrismco', Object(WP_User))
+#6 /home/potionxsmoothies/pub in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/functions.php on line 91

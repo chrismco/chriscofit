@@ -1,0 +1,200 @@
+/*Navigation*/
+#navigation{
+		overflow: visible;	
+		padding: 0;
+		.container{
+			padding-left: 0;
+			padding-right: 0;
+		}
+//Navigation
+//Primary Navigation
+		.nav{
+			text-align: center;
+			display: table;
+			border-collapse: collapse;
+			float: left;
+			width: 100%;
+			.navigationFont() !important;
+
+			li{
+				
+				font-size: 100%;
+				display: table-cell;
+				line-height: 120%;
+				text-align: center;
+				color: @primaryNavLink;
+				vertical-align: middle;
+				font-weight: bold;
+				ul{
+					display:none;
+				}
+				&:hover{
+					background-color: @primaryNavLinkHoverBg;
+					color: @primaryNavLinkHover;
+					ul{
+						position: absolute;
+						display: block;
+						z-index: 9999;
+						background-color: @primaryNavLinkHoverBg;
+						margin-top: 0px;
+						margin-left: 0px;
+						padding-top: 0px;
+						padding-left: 15px;
+						padding-bottom: 6px;
+						min-width: 250px;
+						li{
+							font-size: 100%;
+							display: block;
+							float: left;
+							clear: left;
+							width: 100%;
+							text-align: left;
+							color: @primaryNavSubLink;
+							a{
+								padding: 6px 0%;
+								display: block;
+								width: 100%;
+								margin: 0% 3px;
+							}
+						}
+						
+					}
+				}
+				a{
+					margin: 10px 0%;
+					display: block;
+					width: 100%;
+				}
+			}
+	
+		}
+}
+
+//Footer Navigation
+
+footer{
+	background-color: @footerNavBgColor;
+	.nav{
+	text-align: center;
+	display: block;
+	float:left;
+	width: 100%;
+			li{
+				
+				float: left;
+				
+				text-align: center;
+				.navigationFont() !important;
+				color: @footerNavLink;
+				ul{
+					display:none;
+				}
+				&:hover{
+					color: @footerNavLinkHover;	
+				}
+			}
+	
+	}	
+}
+
+	//MOBILE
+
+	#mobile{
+	display:none;
+	position: relative;
+	width: 100%;
+	float: left;
+	/* background-image: url(images/nav-bg.png); */
+	background-repeat: repeat-x;
+	background-size: 100% 100%;
+		#toggle-bar {
+				padding:10px;
+				overflow: hidden;
+				background-color: @mobileTopBarBg;
+				color: @mobileTopBar;			
+				.home-mobile {
+					height: 50px;
+					display: inline-block;
+					width: 50px;
+					float: left;
+					margin: 6px;
+					text-indent: 68px;
+					font-size: 125%;
+					color: #000;
+					.siteFont();
+					line-height: 55px;
+						span{
+							display: none;
+						}
+				}
+				strong a {
+					margin-left:30px;
+					border:1px solid #444;
+					padding:10px;
+				}
+		}
+		#mmenu {
+		float: left;
+		clear: both;
+		margin-left: 15%;
+		width: 80%;
+			li{
+				display: block;
+				.navigationFont() !important;
+				background-color: @mobileLinkBg;
+				color: @mobileLink;
+				font-size: 165%;
+				border-bottom: 1px solid #eee;
+				padding: 2% 0%;
+				&:hover{
+					@mobileLinkHover;
+				}
+				&:last-child{
+					border: none;
+				}
+				ul {
+					font-size:small;
+					background-color: @mobileSubBg;
+					li {
+						clear:both;
+						list-style:none;
+						margin-left:30px;
+							a {
+								display:block;
+								text-transform:uppercase;
+								letter-spacing:.2em;
+								margin:2px 0;
+								padding:6px 0 8px 8px;
+								color:@mobileSubLink;
+									&:hover{
+										@mobileSubLinkHover	;
+									}
+									&:before{
+										
+									}
+							}
+						} 
+				}
+			}
+			
+		}
+	}
+	@media screen and (max-width: @screenSM),screen and (max-device-width: @screenSM){
+		.nav{
+				display:none;
+		}
+		#mobile {
+			display: block;
+		}
+	}
+	.icon-home{
+		float:left;
+	}
+	.icon-menu{
+		float:right;
+	}
+	.icon-home, .icon-menu{
+		color: @mobileIcons;
+		font-size: 40px;
+	}
+

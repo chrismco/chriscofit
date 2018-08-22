@@ -1,0 +1,318 @@
+.home {
+  section#banner{
+    height: 538px;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    @media screen and (max-width:@screenXS),screen and (max-device-width:@screenXS){
+      height: 285px;
+    }
+    .tagline{
+      position: relative;
+      .orange{
+        position:relative;
+        margin-top: 45px;
+        width: 413px;
+        height: 286px;
+        background-color:@tpcOrange;
+        opacity: .8;
+        z-index: 1;
+        @media screen and (max-width:@screenSM),screen and (max-device-width:@screenSM){
+          width:100%;
+          margin-top:0;
+          height: 210px;
+        }
+        @media screen and (max-width:@screenXS),screen and (max-device-width:@screenXS){
+          height: 100px;
+        }
+        .orange-text{
+          position: absolute;
+          z-index: 2;
+          margin: 23px 47px 25px 47px;
+          @media screen and (max-width:@screenSM),screen and (max-device-width:@screenSM){
+            position: relative;
+          }
+          span{
+            display: block;
+            text-transform: uppercase;
+            @media screen and (max-width:@screenSM),screen and (max-device-width:@screenSM){
+              text-align: center;
+            }
+          }
+          .title-1{
+              font-size: 58px;
+            color:@white;
+            border-bottom: 1px solid @tpcYellow;
+            @media screen and (max-width:@screenXS),screen and (max-device-width:@screenXS){
+              font-size: 18px;
+            }
+          }
+          .title-2{
+            font-size: 60px;
+              font-style: italic;
+            color:@tpcDarkBlue;
+            @media screen and (max-width:@screenXS),screen and (max-device-width:@screenXS){
+              font-size: 20px;
+            }
+          }
+          p{
+            color:@white;
+            @media screen and (max-width:@screenSM),screen and (max-device-width:@screenSM){
+              font-size: 16px;
+              text-align: center;
+            }
+          }
+        }
+      }
+      .easy-steps{
+        position: relative;
+        float:right;
+        margin-top:45px;
+        display: table;
+        @media screen and (max-width:@screenSM),screen and (max-device-width:@screenSM){
+        float: none;
+          margin: 10px auto;
+        }
+        @media screen and (max-width:@screenXS),screen and (max-device-width:@screenXS){
+          margin-top:15px;
+        }
+        .number, .text{
+
+          vertical-align: top;
+        }
+        .number{
+          color:@white;
+          font-size: 128px;
+          line-height: 100%;
+          text-shadow: 2px 2px 4px #000000;
+          @media screen and (max-width:@screenXS),screen and (max-device-width:@screenXS){
+            font-size: 68px;
+          }
+        }
+        .text{
+          margin-left: 5px;
+          display: table-cell;
+          .left, .right{
+            float: left;
+            display: inline-block;
+          }
+
+          span{
+            display: block;
+            font-size: 48px;
+            @media screen and (max-width:@screenXS),screen and (max-device-width:@screenXS){
+              font-size: 25px;
+            }
+          }
+          .top{
+            color:@tpcOrange;
+            font-style: italic;
+          }
+          .bottom{
+            color:@tpcDarkBlue;
+          }
+          p{
+            text-align: center;
+            font-weight: bold;
+            clear: left;
+            @media screen and (max-width:@screenSM),screen and (max-device-width:@screenSM){
+              display: inline-block;
+            }
+            @media screen and (max-width:@screenXS),screen and (max-device-width:@screenXS){
+              font-size: 18px;
+            }
+          }
+        }
+        .right-side{
+          p {
+            @media screen and (max-width:@screenXS),screen and (max-device-width:@screenXS){
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  section#blocks{
+    background-color: @tpcGray;
+    .display-table{
+      width: auto;
+      margin: -90px auto;
+      border-collapse: separate;
+      border-spacing: 15px 0;
+      @media screen and (max-width:@screenSM),screen and (max-device-width:@screenSM){
+        margin: 0px auto;
+        padding: 15px 0;
+      }
+    }
+    .display-cell{
+      vertical-align: top;
+    }
+    .blocks{
+      div.block + div.block{
+        margin-left: 15px;
+        @media screen and (max-width:@screenSM),screen and (max-device-width:@screenSM){
+          margin-left: 0px;
+        }
+      }
+    }
+
+    .block{
+      text-align: center;
+      background-color: @white;
+      width:245px;
+      height:291px;
+      border-radius: 8px;
+      box-shadow: 2px 2px 4px #000;
+      padding: 10px 43px 5px 45px;
+      @media screen and (max-width:@screenSM),screen and (max-device-width:@screenSM){
+       display: block;
+        width: 100%;
+        margin-bottom: 15px;
+      }
+      @media screen and (max-width:@screenXS),screen and (max-device-width:@screenXS){
+        height:209px;
+      }
+      h4{
+        font-size: 25px;
+        @media screen and (max-width:@screenXS),screen and (max-device-width:@screenXS){
+          font-size: 18px;
+        }
+        @media screen and (max-width:@screenSMALLDEVICE-PHONE),screen and (max-device-width:@screenSMALLDEVICE-PHONE){
+          font-size: 16px;
+        }
+      }
+      img{
+        display: inline;
+        height:125px;
+        @media screen and (max-width:@screenXS),screen and (max-device-width:@screenXS){
+          height:80px;
+        }
+      }
+      .offer{
+        color:@tpcOrange;
+        font-size: 16px;
+        padding-top: 10px;
+      }
+      .offer-link{
+        a{
+          color:@tpcDarkBlue;
+          font-size: 18px;
+          @media screen and (max-width:@screenSMALLDEVICE-PHONE),screen and (max-device-width:@screenSMALLDEVICE-PHONE){
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    .tagline{
+      margin-top: 130px;
+      margin-bottom: 15px;
+      @media screen and (max-width:@screenSM),screen and (max-device-width:@screenSM){
+        margin-top: 0;
+      }
+
+      p{
+        text-align: center;
+        color:@tpcDarkBlue;
+        font-weight: bold;
+        font-size: 42px;
+        @media screen and (max-width:@screenSM),screen and (max-device-width:@screenSM){
+          font-size: 25px;
+        }
+        @media screen and (max-width:@screenXS),screen and (max-device-width:@screenXS){
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  .content{
+    text-align: center;
+    padding-bottom: 30px;
+    h2{
+      font-size: 40px;
+      text-transform:uppercase;
+      font-weight: bold;
+      color: @tpcOrange;
+      @media screen and (max-width:@screenSM),screen and (max-device-width:@screenSM){
+        font-size: 25px;
+      }
+      @media screen and (max-width:@screenXS),screen and (max-device-width:@screenXS){
+        font-size: 18px;
+      }
+    }
+    p{
+      @media screen and (max-width:@screenSM),screen and (max-device-width:@screenSM){
+        font-size: 18px;
+      }
+      @media screen and (max-width:@screenXS),screen and (max-device-width:@screenXS){
+        font-size: 16px;
+      }
+    }
+  }
+  section#services{
+    height:320px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    @media screen and (max-width:@screenLG),screen and (max-device-width:@screenLG){
+      height:auto;
+      padding-bottom: 15px;
+    }
+    .title{
+      text-align: center;
+    }
+    h4{
+      font-size: 40px;
+      font-weight: bold;
+      text-transform: uppercase;
+      @media screen and (max-width:@screenSM),screen and (max-device-width:@screenSM){
+        font-size: 25px;
+      }
+      @media screen and (max-width:@screenXS),screen and (max-device-width:@screenXS){
+        font-size: 18px;
+      }
+    }
+    p{
+      @media screen and (max-width:@screenSM),screen and (max-device-width:@screenSM){
+        font-size: 18px;
+      }
+      @media screen and (max-width:@screenXS),screen and (max-device-width:@screenXS){
+        font-size: 16px;
+      }
+    }
+    .security-options{
+      margin-top: 10px;
+      .option{
+        position: relative;
+        background-color: @white;
+        margin:0 0 0 20px;
+        @media screen and (max-width:@screenSM),screen and (max-device-width:@screenSM){
+          margin:0 0 15px 0px;
+        }
+
+        .cell{
+          padding: 10px 15px;
+        }
+        .cell-img{
+          text-align: center;
+        }
+        img{
+          display: inline;
+          @media screen and (max-width:@screenXS),screen and (max-device-width:@screenXS){
+            height: 60px;
+          }
+        }
+        p{
+          font-size: 18px;
+          @media screen and (max-width:@screenSM),screen and (max-device-width:@screenSM){
+            text-align: center;
+          }
+          @media screen and (max-width:@screenXS),screen and (max-device-width:@screenXS){
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}

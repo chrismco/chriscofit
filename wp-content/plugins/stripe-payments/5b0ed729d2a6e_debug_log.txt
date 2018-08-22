@@ -1,0 +1,26 @@
+[05/30/2018 4:54 PM] - Payment processing started.
+[05/30/2018 4:54 PM] - Triggering hook for addons to process posted data if needed.
+[05/30/2018 4:54 PM] - Checking received data.
+[05/30/2018 4:54 PM] - Got product ID: 17. Trying to get info from database.
+[05/30/2018 4:54 PM] - Got required product info from database.
+[05/30/2018 4:54 PM] - Getting API keys and trying to create a charge.
+[05/30/2018 4:54 PM] - Firing pre-payment hook.
+[05/30/2018 4:54 PM] - Processing payment.
+[05/30/2018 4:54 PM] - Firing post-payment hooks.
+[05/30/2018 4:54 PM] - Notification email sent to buyer: christopher@pxmuscleandnutrition.com, From email address used: Chris Coleman<christopher@pxmuscleandnutrition.com>
+[05/30/2018 4:54 PM] - Notification email sent to seller: christopher@pxmuscleandnutrition.com, From email address used: Chris Coleman<christopher@pxmuscleandnutrition.com>
+[05/30/2018 4:54 PM] - Payment has been processed successfully.
+
+[05/30/2018 5:03 PM] - Payment processing started.
+[05/30/2018 5:03 PM] - Triggering hook for addons to process posted data if needed.
+[05/30/2018 5:03 PM] - Checking received data.
+[05/30/2018 5:03 PM] - Got product ID: 17. Trying to get info from database.
+[05/30/2018 5:03 PM] - Got required product info from database.
+[05/30/2018 5:03 PM] - Getting API keys and trying to create a charge.
+[05/30/2018 5:03 PM] - Firing pre-payment hook.
+[05/30/2018 5:03 PM] - Processing payment.
+[05/30/2018 5:03 PM] - Firing post-payment hooks.
+[05/30/2018 5:03 PM] - Notification email sent to buyer: support@pxmuscleandnutrition.com, From email address used: Chris Coleman<christopher@pxmuscleandnutrition.com>
+[05/30/2018 5:03 PM] - Notification email sent to seller: christopher@pxmuscleandnutrition.com, From email address used: Chris Coleman<christopher@pxmuscleandnutrition.com>
+[05/30/2018 5:03 PM] - Payment has been processed successfully.
+

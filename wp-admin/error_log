@@ -1,0 +1,33 @@
+[17-Jul-2018 18:54:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/controls/pagination.class.php:74
+Stack trace:
+#0 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/controls/pagination.class.php(347): pagination->run()
+#1 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/controls/datagrid.class.php(345): pagination->get_sql_limit()
+#2 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/controls/datagrid.class.php(433): datagrid->fill_data()
+#3 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/option_page1.php(43): datagrid->run()
+#4 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/wp_login_security_and_history.php(70): include('/home/potionxsm...')
+#5 /home/potionxsmoothies/publ in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/controls/pagination.class.php on line 74
+[17-Jul-2018 18:54:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/controls/pagination.class.php:74
+Stack trace:
+#0 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/controls/pagination.class.php(347): pagination->run()
+#1 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/controls/datagrid.class.php(345): pagination->get_sql_limit()
+#2 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/controls/datagrid.class.php(433): datagrid->fill_data()
+#3 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/option_page1.php(43): datagrid->run()
+#4 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/wp_login_security_and_history.php(70): include('/home/potionxsm...')
+#5 /home/potionxsmoothies/publ in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/controls/pagination.class.php on line 74
+[17-Jul-2018 18:54:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/controls/pagination.class.php:74
+Stack trace:
+#0 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/controls/pagination.class.php(347): pagination->run()
+#1 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/controls/datagrid.class.php(345): pagination->get_sql_limit()
+#2 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/controls/datagrid.class.php(433): datagrid->fill_data()
+#3 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/option_page1.php(43): datagrid->run()
+#4 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/wp_login_security_and_history.php(70): include('/home/potionxsm...')
+#5 /home/potionxsmoothies/publ in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/controls/pagination.class.php on line 74
+[17-Jul-2018 18:54:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/controls/pagination.class.php:74
+Stack trace:
+#0 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/controls/pagination.class.php(347): pagination->run()
+#1 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/controls/datagrid.class.php(345): pagination->get_sql_limit()
+#2 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/controls/datagrid.class.php(433): datagrid->fill_data()
+#3 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/option_page1.php(43): datagrid->run()
+#4 /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/wp_login_security_and_history.php(70): include('/home/potionxsm...')
+#5 /home/potionxsmoothies/publ in /home/potionxsmoothies/public_html/chriscofit.com/wp-content/plugins/wp-login-security-and-history/controls/pagination.class.php on line 74
+[18-Jul-2018 12:12:37 UTC] PHP Warning:  stream_socket_enable_crypto(): Peer certificate CN=`*.prod.phx3.secureserver.net' did not match expected CN=`160.153.71.167' in /home/potionxsmoothies/public_html/chriscofit.com/wp-includes/class-smtp.php on line 368

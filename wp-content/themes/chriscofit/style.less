@@ -1,0 +1,352 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+Theme Name: ChrisCoFit 
+Author: PX Muscle and Nutrition
+*/
+@import "extras.less";
+@import "colors.less";
+@import "tpc-nav.less"; 
+
+
+
+
+//Custom CSS Here
+
+body {
+  background-attachment: fixed; 
+  background-color: #FFF;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 25px !important;
+}
+
+.display-table {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: inherit;
+}
+
+.display-cell {
+  display: table-cell;
+  vertical-align: middle;
+  float: none;
+  height: inherit;
+}
+
+#generic-title{
+  padding: 2% 0;
+  background-color: @tpcOrange;
+  box-shadow: inset 0 10px 10px -10px #000, inset 0 -10px 10px -10px #000;
+  h2{
+    font-size: 40px;
+    color:@white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px @black;
+    @media screen and (max-width:@screenMD),screen and (max-device-width:@screenMD){
+      font-size: 36px;
+    }
+    @media screen and (max-width:@screenXS),screen and (max-device-width:@screenXS){
+      font-size: 18px;
+    }
+  }
+}
+
+.green-btn, .wpcf7-submit{
+  padding: 15px 69px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#246136+18,1a532b+100 */
+  background: #246136; /* Old browsers */
+  background: -moz-linear-gradient(top, #246136 18%, #1a532b 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(18%,#246136), color-stop(100%,#1a532b)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #246136 18%,#1a532b 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #246136 18%,#1a532b 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #246136 18%,#1a532b 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #246136 18%,#1a532b 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#246136', endColorstr='#1a532b',GradientType=0 ); /* IE6-9 */
+  border-radius: 4px;
+  display: inline-block;
+  color:@white !important;
+  text-transform: uppercase;
+  @media screen and (max-width:@screenSM),screen and (max-device-width:@screenSM){
+    font-size: 18px;
+  }
+  @media screen and (max-width:@screenXS),screen and (max-device-width:@screenXS){
+    font-size: 16px;
+  }
+}
+.call-btn{
+  padding: 3% 4%;
+  margin: 14px 0 0 0;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#246136+18,1a532b+100 */
+  background: #246136; /* Old browsers */
+  background: -moz-linear-gradient(top, #246136 18%, #1a532b 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(18%,#246136), color-stop(100%,#1a532b)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #246136 18%,#1a532b 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #246136 18%,#1a532b 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #246136 18%,#1a532b 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #246136 18%,#1a532b 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#246136', endColorstr='#1a532b',GradientType=0 ); /* IE6-9 */
+  border-radius: 4px;
+  display: inline-block;
+  color:@white !important;
+  text-transform: uppercase;
+  @media screen and (max-width:@screenSM),screen and (max-device-width:@screenSM){
+    font-size: 18px;
+  }
+  @media screen and (max-width:@screenXS),screen and (max-device-width:@screenXS){
+    font-size: 16px;
+    padding: 7% 4%;
+  }
+}
+a{
+  &:hover, &:visited{
+    text-decoration: none !important;
+  }
+}
+
+header{
+  #header-top{
+    padding: 10px 0;
+    color:@white;
+    background-color: @tpcDarkBlue;
+    .container, .row{
+      height: inherit;
+    }
+    h1{
+      text-transform: uppercase;
+      font-weight: bold;
+      text-align: center !important;
+      @media screen and (max-width:@screenMD),screen and (max-device-width:@screenMD){
+        font-size: 25px;
+      }
+      @media screen and (max-width:@screenSM),screen and (max-device-width:@screenSM){
+        font-size: 18px;
+      }
+      a{
+        &:hover{
+          color:@white;
+        }
+      } 
+    }
+    .call{
+      text-align: right;
+      @media screen and (max-width:@screenMD),screen and (max-device-width:@screenMD){
+        font-size: 18px;
+      }
+      @media screen and (max-width:@screenSM),screen and (max-device-width:@screenSM){
+        font-size: 16px;
+      }
+
+    }
+  }
+  #tpc-nav{
+    background-color: #e7e7e7;
+    .tpc-nav{
+     // background-color: #000;
+    }
+    ul#menu-primary-menu-1{
+      @media screen and (max-width:@screenSM),screen and (max-device-width:@screenSM){
+        display: none;
+      }
+    }
+    ul#menu-primary-menu
+    {
+      @media screen and (max-width:@screenSM),screen and (max-device-width:@screenSM){
+        display: block;
+      }
+
+    }
+
+    ul#menu-primary-menu, ul#menu-primary-menu-1{
+      width: auto;
+      float: left;
+      margin: 0 0 0 9%;
+      height: 110px;
+      @media screen and (max-width: @screenSM),screen and (max-device-width: @screenSM){
+        width:100%;
+        margin: 0;
+      }
+      .menu-item-22{
+        a{
+          color:@tpcOrange;
+        }
+      }
+      li.active{
+        border-bottom: 3px solid @tpcYellow;
+      }
+      li{
+        width: 155px;
+        max-width: 175px;
+        width: auto;
+        height:inherit;
+        margin: 0;
+        display: inline-block;
+        @media screen and (max-width:@screenMD),screen and (max-device-width:@screenMD){
+          width: 125px;
+        }
+          @media screen and (max-width: @screenSM),screen and (max-device-width: @screenSM){
+            display: block;
+            float:none;
+            width:100%;
+            max-width: 100%;
+            text-align: center;
+            z-index: 3000;
+            position: relative;
+            background-color: white;
+          }
+        a{
+          // height: 80px;
+          // width: 155px;
+          height:inherit;
+           padding: 0 12px;
+          text-align: center;
+          display: table-cell;
+          vertical-align: middle;
+          font-size: 18px;
+          text-transform: uppercase;
+          color:@tpcDarkBlue;
+          font-weight: bold;
+          @media screen and (max-width:@screenMD),screen and (max-device-width:@screenMD){
+            width: 125px;
+            font-size: 12px;
+          }
+          @media screen and (max-width: @screenSM),screen and (max-device-width: @screenSM){
+            width:100%;
+            height:60px;
+            text-align: center;
+          }
+          &:hover{
+            text-decoration: none;
+            border-bottom: 3px solid @tpcYellow;
+          }
+          &:visited{
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+footer{
+  background-color: @tpcOrange;
+  color:@white;
+  font-weight: bold;
+  font-size:18px;
+  padding-bottom: 20px;
+  @media screen and (max-width:@screenXS),screen and (max-device-width:@screenXS){
+    font-size: 16px;
+  }
+  .footer-content{
+    padding: 30px 0;
+    border-top:1px solid @tpcYellow;
+    border-bottom:1px solid @tpcYellow;
+    margin: 20px 0;
+    .display-table{
+      width: auto;
+      margin: 0 auto;
+    }
+    .display-cell{
+      padding: 0 5px;
+      @media screen and (max-width:@screenSMALLDEVICE-PHONE),screen and (max-device-width:@screenSMALLDEVICE-PHONE){
+          display: block;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+    }
+    ul{
+
+      li + li{
+        border-left: 2px solid @white;
+        @media screen and (max-width:@screenSMALLDEVICE-PHONE),screen and (max-device-width:@screenSMALLDEVICE-PHONE){
+          border-left:none;
+
+        }
+      }
+    }
+  }
+  .copyright{
+    text-align: center;
+    color:@black;
+  }
+  h5{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 0;
+    @media screen and (max-width:@screenSM),screen and (max-device-width:@screenSM){
+      font-size: 25px;
+    }
+    @media screen and (max-width:@screenXS),screen and (max-device-width:@screenXS){
+      font-size: 18px;
+    }
+  }
+}
+
+.clearfix:after,
+.container:before,
+.container:after,
+.container-fluid:before,
+.container-fluid:after,
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after,
+.container:after,
+.container-fluid:after,
+.row:after {
+  clear: both;
+}
+
+
+
+#mobile{
+  display: none;
+}
+
+#toggle-bar{
+  padding: 2% 0;overflow: hidden;
+}
+
+@media screen and (max-width: @screenSM),screen and (max-device-width: @screenSM){
+    #mobile {
+      display: block;
+    }
+}
+.icon-home{
+  float:left;
+}
+.icon-menu{
+  float:right;
+}
+.icon-home, .icon-menu{
+  color: @tpcDarkBlue;
+  font-size: 30px !important;
+}
+
+.wpcf7-form{
+  color:@tpcOrange;
+  font-weight: bold;
+  input[type="text"], input[type="email"], input[type="tel"], textarea{
+    width:100%;
+  }
+}
+
+#quote{
+  background-color: @tpcGray;
+  text-align: center;
+  padding: 3%;
+}
+@import "emodal.less";
+@import "home.less";
+@import "wwd.less";
+@import "tradelines.less";
+@import "creditrepair.less";
+@import "contactus.less";
+@import "disclaimer.less";
+
+
+
+@import "media.less";
