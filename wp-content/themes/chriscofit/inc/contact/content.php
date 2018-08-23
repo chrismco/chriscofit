@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2>Contact Chris</h2>
+                <h2>Start Your Transformation Today!</h2>
             </div>
         </div>
     </div>
@@ -11,7 +11,7 @@
     <div class="container">
         <div class="row content">
             <div class="col-sm-8">
-                <p>I'm  here to take care of your <strong>fitness</strong> needs. Have any questions or concerns? PX Muscle and Nutrition and I truly understand. Feel free to contact us anytime at  with your important questions:</p>
+                <p>Fill out the short form below to inquire for coaching and start your transformation.</p>
                 <?php if ( have_posts() ) : ?>
                     <?php while ( have_posts() ) : the_post();
                         the_content(); ?>
